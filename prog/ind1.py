@@ -11,7 +11,7 @@ import logging
 logging.basicConfig(
     filename='trains.log',
     level=logging.DEBUG,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    format='%(asctime)s - %(levelname)s - %(message)s', encoding='utf-8'
 )
 
 def add_train(trains, nomer, punkt, time):

@@ -23,5 +23,10 @@
         "nomer": "453",
         "punkt": "London",
         "time": 4
+    },
+    {
+        "nomer": "98",
+        "punkt": "Ekaterinburg",
+        "time": 14
     }
 ]

@@ -12,7 +12,7 @@ logging.basicConfig(
     filename='trains.log',
     level=logging.DEBUG,
     format='%(asctime)s.%f - %(levelname)s - %(message)s',  # Добавлено миллисекундное время
-    datefmt='%Y-%m-%d %H:%M:%S'  # Формат даты и времени
+    datefmt='%Y-%m-%d %H:%M:%S', encoding='utf-8'  # Формат даты и времени
 )
 
 def add_train(trains, nomer, punkt, time):
